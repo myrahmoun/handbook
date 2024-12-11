@@ -46,7 +46,7 @@ For example, Jonathan Frankle’s lab directory is at:
 
 This storage is only accessible to members of the lab. There is __no cost__ associated with this storage.
 
-## Temporary scratch storage (VAST)
+## Temporary High-Performance scratch storage (VAST)
 
 Each lab has 50 TB of `scratch` storage space. This storage is high-performance, and it is intended to be where you keep data you are actively using for a job (e.g., datasets you’re actively using for a job, checkpoints you’re storing from a job, etc.). That data should be copied from the persistent directories above. Data in scratch folders will be deleted after 90 days, and you should treat it as if it could be deleted at any time. 
 
