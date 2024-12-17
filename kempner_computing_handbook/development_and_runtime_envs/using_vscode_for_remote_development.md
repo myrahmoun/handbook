@@ -32,7 +32,6 @@ Host cannon02
   HostName login.rc.fas.harvard.edu
   User <username>
 ```
-````
 
 Please make sure that you use your FASRC username in place of `<username>`.
 
