@@ -3,8 +3,24 @@ root: intro
 title: Kempner Institute Computing Handbook
 options:
   numbered: true
-
 sections:
+- file: high_performance_computing/README
+  sections:
+  - file: high_performance_computing/kempner_cluster/README
+    title: Kempner Cluster
+  - file: high_performance_computing/general_hpc_concepts/README
+    title: General HPC Concepts
+- file: swe_for_research/README
+- file: ai_workflows/README
+- file: neuro_ai_workflows/README
+- file: ai_scaling_and_engineering/README
+  sections:
+  - file: ai_scaling_and_engineering/ml_scaling_and_efficiency/README
+  - file: ai_scaling_and_engineering/performance_monitoring_and_optimization/README
+  - file: ai_scaling_and_engineering/efficient_deployment_and_inference/README
+  - file: ai_scaling_and_engineering/experiment_management_and_reproducibility/README
+- file: security_and_compliance/README.md
+- file: open_source_hub/README
 - file: getting_started/README
   sections:
   - file: getting_started/introduction_and_cluster_basics
