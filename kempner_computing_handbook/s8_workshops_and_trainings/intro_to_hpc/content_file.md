@@ -30,7 +30,7 @@ _Presenters: Ella Batty, Naeem Khoshnevis, Max Shad_
 
 2. Open OnDemand (demo)
 
-See {ref}`getting_started:accessing_and_navigating_the_cluster` for full details. 
+See {ref}`kempner_cluster:accessing_and_navigating_the_cluster` for full details. 
 
 ````
 
@@ -178,7 +178,7 @@ lsload | head -n 1 & lsload | grep "8a17"
 
 ````{dropdown} SLURM Interactive Jobs via Open OnDemand and VSCode
 
-**Open OnDemand**: See {ref}`resource_management:open_ondemand`.
+**Open OnDemand**: See {ref}`general_hpc_concepts:open_ondemand`.
 
 
 **VSCode**: See {ref}`development_and_runtime_envs:using_vscode_for_remote_development:compute_node`.

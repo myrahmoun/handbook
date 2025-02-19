@@ -1,4 +1,4 @@
-(getting_started:accessing_and_navigating_the_cluster)=
+(kempner_cluster:accessing_and_navigating_the_cluster)=
 # Accessing and Navigating the Cluster
 
 There are two methods for accessing the Kempner Institute HPC cluster: 
@@ -11,6 +11,7 @@ To utilize the resources, one may need to install [OpenAuth](https://docs.rc.fas
 
 ## Access Requirements
 
+(kempner_cluster:installing_openauth_2fa)=
 ### Installing OpenAuth 2FA
 
 FASRC  uses its own two-factor authentication tool, [OpenAuth](https://docs.rc.fas.harvard.edu/kb/openauth/), which is different than Harvard Key.
@@ -52,7 +53,7 @@ To set up a VPN connection, follow these steps:
 4. **Enter your credentials**: 
     - **username**: username + @ + `fasrc` (e.g., `jharvard@fasrc`)
     - **password**: your FASRC password (reset your password [here](https://portal.rc.fas.harvard.edu/p3/pwreset/))
-    - **OpenAuth 2FA code**: your OpenAuth 2FA code (See [Installing OpenAuth 2FA](../getting_started/accessing_and_navigating_the_cluster.md))
+    - **OpenAuth 2FA code**: your OpenAuth 2FA code (See {ref}`kempner_cluster:installing_openauth_2fa`)
 
 ```{note}
 For detailed instructions and additional information, please read more about the VPN at [VPN setup guide](https://docs.rc.fas.harvard.edu/kb/vpn-setup/) on FASRC Documentation.
@@ -85,4 +86,4 @@ To access the cluster using Open OnDemand, follow these steps:
 - Open a web browser and navigate to the following URL: [http://vdi.rc.fas.harvard.edu/](http://vdi.rc.fas.harvard.edu/).
 - Enter your username and password to log in to the Open OnDemand interface.
 
-Refer to the dedicated [Open OnDemand section](../resource_management/open_ondemand.md) to learn more.
+Refer to the dedicated {ref}`general_hpc_concepts:open_ondemand` page to learn more.
