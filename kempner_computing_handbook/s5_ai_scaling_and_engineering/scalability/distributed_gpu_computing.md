@@ -8,6 +8,7 @@ One can decide to use multiple GPUs on their AI/ML applications for different re
 
 ## Inter GPU Communication
 In majority of use-cases of multi-GPU computation there is the need for different GPU to communicate and send their partail computation to one another to sync. NCCL libarary from NVIDIA is widely in use for NIVIDA based GPU communication.
+
 (sec-nccl)=
 ### NVIDIA Collective Communication Library (NCCL)
 For multi-GPU and multi-node communication, NVIDIA Collective Communication Library (NCCL, pronounced “Nickel”) is being used as backend in distributed strategies for Nvidia GPUs such as Distributed Data Parallel (DDP) and Fully Sharded Data Parallel (FSDP). Following are some of the most related NCCL collective communication primitives :
@@ -17,10 +18,12 @@ For multi-GPU and multi-node communication, NVIDIA Collective Communication Libr
 * Reduce: One rank receives the reduction of input values across ranks.
 * AllReduce: Each rank receives the reduction of input values across ranks.
 * ReduceScatter: Input values are reduced across ranks, with each rank receiving a subpart of the result.
+
 ```{seealso}
 For more information about the different NCCL collective operations refer to:
 https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html
 ``` 
+
 ```{note}
 Each process in the multi-process applications is called a rank. Usually each process has its own exclusive device. Therefore you can think of each rank as one GPU in the following diagrams.
 ```

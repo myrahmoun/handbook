@@ -1,3 +1,4 @@
+(s8_workshops_and_trainings:spring2403_intro_to_hpc)=
 # Kempner Institute Spring 2024 Compute Workshop
 
 _Date: March 28, 2024_  

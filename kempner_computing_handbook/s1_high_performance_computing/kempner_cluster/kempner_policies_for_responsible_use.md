@@ -1,4 +1,4 @@
-# Kempner Policies for Responsible Use of the Cluster
+# Cluster Usage Policies
 
 
 ## Expected use cases
