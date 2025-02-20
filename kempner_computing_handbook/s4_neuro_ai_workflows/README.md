@@ -1,3 +1,2 @@
-# Neuro/AI Workflows
-
+# Spike Sorting
 TBD

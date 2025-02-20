@@ -44,17 +44,16 @@ parts:
     chapters:
     # - file: s2_swe_for_research/git_and_version_control
     - file: s2_swe_for_research/collaborative_code_development
-    - file: s2_swe_for_research/code_review
     - file: s2_swe_for_research/software_design_principles
     - file: s2_swe_for_research/documentation_and_readibility
     - file: s2_swe_for_research/testing_and_continuous_integration
-    - file: s2_swe_for_research/reproducible_research
     - file: s2_swe_for_research/package_development
-  - caption: AI Workflows
+    - file: s2_swe_for_research/reproducible_research
+  - caption: AI Tools and Workflows
     numbered: true
     chapters:
     # - file: s3_ai_workflows/README
-    - file: s1_high_performance_computing/storage_and_data_transfer/testbed_and_tatm
+    - file: s3_ai_workflows/testbed_and_tatm
   - caption: Neuro AI Workflows
     numbered: true
     chapters:
@@ -86,15 +85,15 @@ parts:
   - caption: Support
     numbered: true
     chapters:
-    - file: s9_support/README
+    - file: s8_support/README
       sections:
-      - file: s9_support/faq
+      - file: s8_support/faq
   - caption: Workshops and Trainings
     numbered: false
     chapters:
-    - file: s8_workshops_and_trainings/README
+    - file: s9_workshops_and_trainings/README
       sections:
-      - file: s8_workshops_and_trainings/spring2403_intro_to_hpc/content_file
+      - file: s9_workshops_and_trainings/spring2403_intro_to_hpc/content_file
         title: Spring 24, March
 
 

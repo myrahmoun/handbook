@@ -45,10 +45,6 @@ Users who monopolize cluster resources may have jobs canceled without notice, ha
 
 Please be mindful of how you use this resource to ensure everyone gets to use it as much as possible. Try to write efficient code that takes advantage of the GPUs you are requesting. Be mindful about tools like Jupyter notebooks, it is easy to accidentally bog down the cluster. 
 
-```{seealso}
-For more information about efficient use of the cluster, please see the section {ref}`efficient_use_of_resources:best_practices_for_hpc_efficiency`.
-```
-
 ## Communication
 
 Please ensure you are in the `#cluster-users` slack channel in the Kempner slack space. Make use of this channel if you run into any issues. 

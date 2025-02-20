@@ -1,4 +1,4 @@
-# Introduction for Parallel Computing
+# Intro to Parallel Computing
 
 ## Parallelizing Computations in High-Performance Computing (HPC)
 

@@ -6,7 +6,7 @@ Welcome to the Kempner Institute Computing Handbook, a comprehensive resource de
 
 <div style="margin-left: 40px;">
 
-Harvard’s Kempner AI cluster ranks **32nd** on the **Green500** and 85th on the TOP500, making it one of the fastest and most energy-efficient supercomputers for advancing AI and neuroscience research.
+Harvard’s Kempner AI cluster ranks **32nd** on the [Green500](https://top500.org/lists/green500/list/2024/11/) and **85th** on the [TOP500](https://top500.org/lists/top500/list/2024/11/), making it one of the fastest and most energy-efficient supercomputers for advancing AI and neuroscience research.
 
 ```{figure} figures/jpg/Main-Art.AI-Clustering.jpg
 ---

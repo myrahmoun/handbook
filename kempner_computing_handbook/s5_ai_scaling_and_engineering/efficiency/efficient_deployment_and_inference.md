@@ -1,1 +1,1 @@
-# Efficient Deployment and Inference
+# Deployment and Inference

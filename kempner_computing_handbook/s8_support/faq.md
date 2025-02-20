@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# FAQ
 
 1. I am trying to clone a repository on HPC but I get the following error:
 
