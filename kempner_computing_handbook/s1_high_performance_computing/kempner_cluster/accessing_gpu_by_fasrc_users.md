@@ -1,4 +1,4 @@
-# Accessing Kempner GPUs by All FASRC Users 
+# Access by FASRC Users 
 
 Priority access to the Kempner AI cluster is granted based on an ongoing, direct relationship with the Kempner Institute and is intended exclusively to support mission-aligned research.
 

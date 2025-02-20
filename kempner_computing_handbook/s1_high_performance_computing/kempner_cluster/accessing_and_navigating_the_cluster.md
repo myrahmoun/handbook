@@ -1,5 +1,5 @@
 (kempner_cluster:accessing_and_navigating_the_cluster)=
-# Accessing and Navigating the Cluster
+# Accessing the Cluster
 
 There are two methods for accessing the Kempner Institute HPC cluster: 
 

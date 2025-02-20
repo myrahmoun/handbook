@@ -1,4 +1,4 @@
-# Introduction and Cluster Basics
+# Introduction and Basics
 
 High-Performance Computing (HPC) refers to the use of supercomputers and parallel processing techniques to solve complex computational problems. HPC systems are designed to deliver high performance and are used for scientific, engineering, and data-intensive applications. These systems are capable of processing large volumes of data and performing complex calculations at a much faster rate than traditional computing systems. In this handbook, we will concentrate on utilizing HPC systems for research and applications in machine learning and artificial intelligence.
 

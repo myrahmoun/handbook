@@ -14,14 +14,15 @@ parts:
       - file: s1_high_performance_computing/kempner_cluster/kempner_policies_for_responsible_use
       - file: s1_high_performance_computing/kempner_cluster/accessing_and_navigating_the_cluster
       - file: s1_high_performance_computing/kempner_cluster/accessing_gpu_by_fasrc_users
+      - file: s1_high_performance_computing/efficient_use_of_resources/fair_use_and_prioritization_policies
     - file: s1_high_performance_computing/general_hpc_concepts/README
       sections:
       - file: s1_high_performance_computing/general_hpc_concepts/understanding_slurm
       - file: s1_high_performance_computing/general_hpc_concepts/job_submission_basics
-      - file: s1_high_performance_computing/general_hpc_concepts/open_ondemand
       - file: s1_high_performance_computing/general_hpc_concepts/array_jobs
       - file: s1_high_performance_computing/general_hpc_concepts/job_dependencies
       - file: s1_high_performance_computing/general_hpc_concepts/advanced_slurm_features    
+      - file: s1_high_performance_computing/general_hpc_concepts/open_ondemand
     - file: s1_high_performance_computing/development_and_runtime_envs/README
       sections:
       - file: s1_high_performance_computing/development_and_runtime_envs/software_module_and_environment_management
@@ -34,20 +35,26 @@ parts:
       sections:
       - file: s1_high_performance_computing/storage_and_data_transfer/understanding_storage_options
       - file: s1_high_performance_computing/storage_and_data_transfer/data_transfer
-      - file: s1_high_performance_computing/storage_and_data_transfer/testbed_and_tatm
       - file: s1_high_performance_computing/storage_and_data_transfer/shared_data_repository
-    - file: s1_high_performance_computing/efficient_use_of_resources/README
-      sections:
-      - file: s1_high_performance_computing/efficient_use_of_resources/best_practices_for_hpc_efficiency
-      - file: s1_high_performance_computing/efficient_use_of_resources/fair_use_and_prioritization_policies
+    # - file: s1_high_performance_computing/efficient_use_of_resources/README
+      # sections:
+      # - file: s1_high_performance_computing/efficient_use_of_resources/best_practices_for_hpc_efficiency
   - caption: Software Engineering for Research
     numbered: true
     chapters:
-    - file: s2_swe_for_research/README
+    # - file: s2_swe_for_research/git_and_version_control
+    - file: s2_swe_for_research/collaborative_code_development
+    - file: s2_swe_for_research/code_review
+    - file: s2_swe_for_research/software_design_principles
+    - file: s2_swe_for_research/documentation_and_readibility
+    - file: s2_swe_for_research/testing_and_continuous_integration
+    - file: s2_swe_for_research/reproducible_research
+    - file: s2_swe_for_research/package_development
   - caption: AI Workflows
     numbered: true
     chapters:
-    - file: s3_ai_workflows/README
+    # - file: s3_ai_workflows/README
+    - file: s1_high_performance_computing/storage_and_data_transfer/testbed_and_tatm
   - caption: Neuro AI Workflows
     numbered: true
     chapters:

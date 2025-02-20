@@ -1,4 +1,4 @@
-# Fair Use and Prioritization Policies
+# Fairshare Policy
 
 
 ## Fairshare

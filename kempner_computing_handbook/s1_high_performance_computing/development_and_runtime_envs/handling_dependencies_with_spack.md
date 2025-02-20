@@ -1,5 +1,5 @@
 (development_and_runtime_envs:handling_dependencies_with_spack)=
-# Streamlining Dependencies with Spack: A Guide to Software Management
+# Spack Package Manager
 
 Spack is a powerful package management tool designed for supercomputers, clusters, and workstations, simplifying the process of installing, managing, and sharing software across different platforms. It supports flexible dependency resolution, multiple versions and configurations of software, and allows for easy deployment of software stacks. This section will guide you through the basics of using Spack to manage software on the Kempner HPC cluster.
 

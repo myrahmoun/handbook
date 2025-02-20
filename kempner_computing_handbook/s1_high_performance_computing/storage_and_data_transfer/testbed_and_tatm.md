@@ -1,6 +1,6 @@
-# The Kempner Testbed and `tatm`
+# Data Discovery and Tokenization
 
-The research and engineering team at the Kempner Institute is actively developing a testbed to support AI/ML research and development. The testbed is a collection of hardware and software resources that are used to test and validate new AI/ML models, algorithms, and tools. Currently
+The Research and Engineering team at the Kempner Institute is actively developing a testbed to support AI/ML research and development. The testbed is a collection of hardware and software resources that are used to test and validate new AI/ML models, algorithms, and tools. Currently
 the primary focus of the testbed is easing access and exploration of data, through the `tatm` python library. Specific details on using `tatm` can be found in the [tatm documentation](https://kempnerinstitute.github.io/tatm/), but key points regarding Kempner specific usage are detailed below.
 
 ## Using `tatm` on the Kempner HPC Cluster
