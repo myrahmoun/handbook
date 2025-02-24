@@ -35,7 +35,7 @@ You need to replace `<preprocess_job_id>` with the actual job ID of the preproce
 
 ## Constraining Resources
 
-Constraining resources in SLURM involves using the `--constraint` option with sbatch to specify the requirements that nodes must meet for the job to be scheduled on them. This can include specifying types of processors, GPUs, or any custom properties defined by the Kempner HPC cluster administrator.
+Constraining resources in SLURM involves using the `--constraint` option with sbatch to specify the requirements that nodes must meet for the job to be scheduled on them. This can include specifying types of processors, GPUs, or any custom properties defined by the Kempner AI cluster administrator.
 
 In the following interactive job, a graduate student can request one node with one CPU core and one A100 GPU for 7 hours. 
 
@@ -43,7 +43,7 @@ In the following interactive job, a graduate student can request one node with o
 salloc -p kempner_requeue --account=kempner_grads -N 1 -n  1 --gres=gpu:1 --constraint=a100 -t 00-07:00:00
 ```
 
-You can find a list of features in Kempner HPC cluster by,
+You can find a list of features in Kempner AI cluster by,
 
 ```bash
 echo "PARTITION FEATURES" && sinfo -p kempner,kempner_requeue,kempner_h100 --noheader --format="%P %f" | sort | uniq
@@ -59,7 +59,7 @@ kempner_requeue intel,holyhdr,icelake,avx,avx2,avx512,gpu,a100,cc8.0
 kempner_h100 amd,holyndr,genoa,avx,avx2,avx512,gpu,h100,cc9.0
 ```
 
-The following table describes each of the features in the Kempner HPC cluster:
+The following table describes each of the features in the Kempner AI cluster:
 
 | Feature  | Description                                                                                       |
 |----------|---------------------------------------------------------------------------------------------------|

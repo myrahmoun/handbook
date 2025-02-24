@@ -187,7 +187,7 @@ class RandomTensorDataset(Dataset):
   def __getitem__(self, idx):
     return self.data[idx]
 ```
-````{dropdown} Run the above code on the HPC cluster
+````{dropdown} Run the above code on the AI cluster
 If you don't have a conda environment already in which PyTorch is installed, you need to create one.
 
 ```{code-block} bash
@@ -202,7 +202,7 @@ pip3 install torch
 ```
 The conda environment activation needs also be added to the slurm scripts.
 
-Now create `mlp_single_gpu.py` and `random_dataset.py` from {numref}`mlp_single_gpu` and {numref}`random_dataset` respectively and use the following slurm script to run it on the HPC cluster.
+Now create `mlp_single_gpu.py` and `random_dataset.py` from {numref}`mlp_single_gpu` and {numref}`random_dataset` respectively and use the following slurm script to run it on the AI cluster.
 ```{code-block} bash
 :name: single_gpu_slurm
 :caption: Slurm script skeleton to run the single-GPU mlp example.

@@ -1,6 +1,6 @@
 # Job Submission Basics
 
-You can either run your jobs interactively (with allocating compute resources) or submit them as batch jobs. Interactive jobs are useful for testing and debugging, while batch jobs are useful for running large-scale simulations and analyses. In this section, we will cover the basics of job submission on the Kempner Institute HPC cluster. In both cases, you will need to specify the Kempner Institute partitions and the fairshare account to which the resources will be charged.
+You can either run your jobs interactively (with allocating compute resources) or submit them as batch jobs. Interactive jobs are useful for testing and debugging, while batch jobs are useful for running large-scale simulations and analyses. In this section, we will cover the basics of job submission on the Kempner Institute AI cluster. In both cases, you will need to specify the Kempner Institute partitions and the fairshare account to which the resources will be charged.
 
 
 ## Interactive Jobs

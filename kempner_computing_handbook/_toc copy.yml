@@ -13,7 +13,7 @@ sections:
     - file: s1_high_performance_computing/kempner_cluster/introduction_and_cluster_basics
       title: Introduction and Cluster Basics
     - file: s1_high_performance_computing/kempner_cluster/overview_of_kempner_cluster
-      title: Overview of Kempner Institute HPC Cluster
+      title: Overview of Kempner Institute AI Cluster
     - file: s1_high_performance_computing/kempner_cluster/kempner_policies_for_responsible_use
       title: Kempner Policies for Responsible Use of the Cluster
     - file: s1_high_performance_computing/kempner_cluster/accessing_and_navigating_the_cluster

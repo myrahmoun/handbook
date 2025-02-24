@@ -1,6 +1,6 @@
 # Storage Options
 
-There are several storage options available on the Kempner Institute HPC cluster. Each storage option has its own unique features and is designed to meet different requirements. This document provides an overview of the storage options available on the cluster and their key concepts.
+There are several storage options available on the Kempner Institute AI cluster. Each storage option has its own unique features and is designed to meet different requirements. This document provides an overview of the storage options available on the cluster and their key concepts.
 
 ## Default persistent home directory
 

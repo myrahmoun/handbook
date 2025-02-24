@@ -1,6 +1,6 @@
 # Job Dependencies
 
-When running machine learning (ML) computational workflows on the Kempner HPC cluster using SLURM, managing job dependencies is useful for efficient workflow management. Job dependency in SLURM allows you to schedule jobs to run in a specific sequence, ensuring that a job runs only after its dependent job(s) have been successfully completed.
+When running machine learning (ML) computational workflows on the Kempner AI cluster using SLURM, managing job dependencies is useful for efficient workflow management. Job dependency in SLURM allows you to schedule jobs to run in a specific sequence, ensuring that a job runs only after its dependent job(s) have been successfully completed.
 
 ```{note}
 The job dependency feature is particularly useful in ML research for **managing data preprocessing**, **model training**, and **evaluation steps** across multiple jobs.
@@ -78,7 +78,7 @@ Assume this job gets the ID `11111`. Submit the second model's training job (`tr
 sbatch --dependency=afterok:11111 train_model2.sh
 ```
 
-You can continue chaining models as required. As you can see through these examples, using job dependencies in SLURM is a powerful way to automate and streamline the workflow of ML research projects on the Kempner HPC Cluster. 
+You can continue chaining models as required. As you can see through these examples, using job dependencies in SLURM is a powerful way to automate and streamline the workflow of ML research projects on the Kempner AI Cluster. 
 
 
 ```{note}

@@ -8,7 +8,7 @@ HPC comes with a wide variety of software packages and libraries. These software
 Use the `module avail` command to list all the software modules available on the cluster. The output will show the available software modules and their versions. 
 
 ```{note}
-See a list of software modules available on the FASRC HPC clusters [here](https://docs.rc.fas.harvard.edu/kb/all-modules/).
+See a list of software modules available on the FASRC Cannon cluster [here](https://docs.rc.fas.harvard.edu/kb/all-modules/).
 ```
 
 ## Managing Software Modules

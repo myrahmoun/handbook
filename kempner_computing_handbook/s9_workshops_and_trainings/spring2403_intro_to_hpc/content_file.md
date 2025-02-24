@@ -8,7 +8,7 @@ _Presenters: Ella Batty, Naeem Khoshnevis, Max Shad_
 
   
 
-> Welcome to the Kempner Institute Spring 2024 Compute Workshop! This workshop is designed to provide an introduction to High-Performance Computing (HPC) and the Kempner Institute HPC cluster. The workshop will cover the basics of HPC, including an overview of the Kempner Institute HPC cluster architecture and storage tiers. We will also discuss data transfer methods, code synchronization, and software modules. The workshop will include an introduction to job management and monitoring, advanced computing techniques, and support and troubleshooting. 
+> Welcome to the Kempner Institute Spring 2024 Compute Workshop! This workshop is designed to provide an introduction to High-Performance Computing (HPC) and the Kempner Institute AI cluster. The workshop will cover the basics of HPC, including an overview of the Kempner Institute AI cluster architecture and storage tiers. We will also discuss data transfer methods, code synchronization, and software modules. The workshop will include an introduction to job management and monitoring, advanced computing techniques, and support and troubleshooting. 
 
 
 ## Infrastructure Orientation
@@ -35,7 +35,7 @@ See {ref}`kempner_cluster:accessing_and_navigating_the_cluster` for full details
 
 ````
 
-````{dropdown} Software Modules in HPC cluster
+````{dropdown} Software Modules in AI cluster
 
 1. **Software modules via module load**
 

@@ -1,7 +1,7 @@
 (kempner_cluster:accessing_and_navigating_the_cluster)=
 # Accessing the Cluster
 
-There are two methods for accessing the Kempner Institute HPC cluster: 
+There are two methods for accessing the Kempner Institute AI cluster: 
 
 - [SSH Access](#ssh_access)
 - [Open OnDemand](#ondemand_access)

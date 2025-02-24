@@ -1,11 +1,11 @@
 # Shell Configuration
 
-Including useful aliases and shortcuts into your shell configuration file (`~/.bashrc` in your home directory) can significantly streamline your workflow on the Kempner HPC Cluster, especially when working with GPU-accelerated machine learning (ML) tasks. These aliases can save you time by **reducing the need to type long commands** and **help avoid potential mistakes in repetitive tasks**. 
+Including useful aliases and shortcuts into your shell configuration file (`~/.bashrc` in your home directory) can significantly streamline your workflow on the Kempner AI Cluster, especially when working with GPU-accelerated machine learning (ML) tasks. These aliases can save you time by **reducing the need to type long commands** and **help avoid potential mistakes in repetitive tasks**. 
 
 This section provides examples of aliases and shortcuts that can be particularly useful in such environments.
 
 ## Shortcut to Lab or Project Storage
-Define aliases to quickly navigate to your lab or project storage directories on the Kempner HPC cluster,
+Define aliases to quickly navigate to your lab or project storage directories on the Kempner AI cluster,
 
 ```bash
 export USERDIR='/n/holylabs/LABS/<lab_name>/Users/$USER'
@@ -38,7 +38,7 @@ You can use the alias as `loadml <module_name>`, where `<module_name>` is the na
 
 ## Monitoring Shortcuts
 
-Submitting and monitoring jobs is a core part of working on the Kempner HPC cluster. Simplify these commands to save time:
+Submitting and monitoring jobs is a core part of working on the Kempner AI cluster. Simplify these commands to save time:
 
 ```bash
 alias myjobs='squeue -u $USER'

@@ -1,11 +1,11 @@
 (development_and_runtime_envs:handling_dependencies_with_spack)=
 # Spack Package Manager
 
-Spack is a powerful package management tool designed for supercomputers, clusters, and workstations, simplifying the process of installing, managing, and sharing software across different platforms. It supports flexible dependency resolution, multiple versions and configurations of software, and allows for easy deployment of software stacks. This section will guide you through the basics of using Spack to manage software on the Kempner HPC cluster.
+Spack is a powerful package management tool designed for supercomputers, clusters, and workstations, simplifying the process of installing, managing, and sharing software across different platforms. It supports flexible dependency resolution, multiple versions and configurations of software, and allows for easy deployment of software stacks. This section will guide you through the basics of using Spack to manage software on the Kempner AI cluster.
 
 ## Spack Installation
 
-To install Spack, pick a shared folder on your lab directory on Kempner HPC cluster (`holylabs` or other Tier 0 storages such as `holylfs0x` or Tier 1). This allows all lab members to use the packages and avoid saving similar packages multiple times. 
+To install Spack, pick a shared folder on your lab directory on Kempner AI cluster (`holylabs` or other Tier 0 storages such as `holylfs0x` or Tier 1). This allows all lab members to use the packages and avoid saving similar packages multiple times. 
 
 ```bash
 mkdir /n/holylabs/LABS/<lab_name>/Lab/software
@@ -47,7 +47,7 @@ Where `<package>` is the name of package.
 
 ## Advanced Topic: Spack Environments
 
-A Spack environment is a key feature of Spack, enabling users to manage software packages, dependencies, and configurations collectively. It ensures the easy replication of software setups across various HPC clusters, aiding researchers, developers, and sysadmins in maintaining consistency and avoiding compatibility issues.
+A Spack environment is a key feature of Spack, enabling users to manage software packages, dependencies, and configurations collectively. It ensures the easy replication of software setups across various AI clusters, aiding researchers, developers, and sysadmins in maintaining consistency and avoiding compatibility issues.
 
 A list of useful Spack environment commands, 
 
