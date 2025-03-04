@@ -1,11 +1,11 @@
-name: ✨ Feature Request
+name: ✨ Content Addition Request
 description: Suggest a new feature or improvement for the handbook.
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
-      value: "## ✨ Feature Request"
+      value: "## ✨ Content Addition Request"
 
   - type: textarea
     id: feature-description
