@@ -2,6 +2,7 @@ name: ✨ Content Addition Request
 description: Suggest a new feature or improvement for the handbook.
 title: "[Feature]: "
 labels: ["enhancement"]
+order: 1
 body:
   - type: markdown
     attributes:
