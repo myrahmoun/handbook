@@ -57,7 +57,7 @@ parts:
   - caption: Neuro AI Workflows
     numbered: true
     chapters:
-    - file: s4_neuro_ai_workflows/README
+    - file: s4_neuro_ai_workflows/spike_sorting
   - caption: AI Scaling and Engineering
     numbered: true
     chapters:
