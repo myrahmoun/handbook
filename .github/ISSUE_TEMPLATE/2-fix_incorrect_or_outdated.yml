@@ -2,7 +2,6 @@ name: 📖 Fix Incorrect or Outdated Material
 description: Report material that is incorrect, outdated, or unclear in the handbook.
 title: "[Fix]: "
 labels: ["bug", "documentation"]
-order: 2
 body:
   - type: markdown
     attributes:

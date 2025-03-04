@@ -2,7 +2,6 @@ name: 🏫 Submit Workshop Material
 description: Contribute materials for a new or existing workshop.
 title: "[Workshop]: "
 labels: ["workshop"]
-order: 3
 body:
   - type: markdown
     attributes:
