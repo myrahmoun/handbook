@@ -1,6 +1,6 @@
 # Spike Sorting
 
-Spike sorting is the classification and identification of action potentials from extracellular electrophysiological recordings for the purpose of discriminating spikes from different neurons. It involves filtering raw signals, spike detection, feature extraction of waveforms, and clustering them into distinct neuronal units. Accurate sorting is essential for the study of neural coding and circuit dynamics but is difficult due to waveform overlap, electrode drift, and noise. Developments in machine and computational learning methods are improving its scalability and accuracy and rendering it increasingly possible for large-scale neural recordings in systems neuroscience.
+Spike sorting is the process of identifying and extracting action potentials recorded extracellularly and classifying them based on their neuron of origin. It involves filtering raw neuronal signals, detecting the spikes, extracting features of single neuron spike waveforms, and clustering them into distinct neuronal units. Accurate sorting is essential for the study of neural coding and circuit dynamics but is difficult due to the presence of waveform overlaps, electrode drifts, and unavoidable noises.
 
 ![SegmentLocal](figures/gif/spikes.gif "segment")
 
@@ -11,11 +11,8 @@ Raw voltage traces for extracellular recordings.
 
 In collaboration with the [Allen Institute](https://alleninstitute.org/), the Kempner Research and Engineering team developed spike sorting pipelines to support researchers on the [FASRC](https://www.rc.fas.harvard.edu/) Cannon and [HMS RC](https://it.hms.harvard.edu/about/departments/research-computing) O2 computing clusters.
 
-In order to utilize these pipelines for your spike sorting project on either computer cluster, follow the instructions below.
+In order to utilize these pipelines for your spike sorting project on either computing cluster, follow the instructions below.
 
-[Steps to run the spike sorting pipeline on the FASRC Cannon Cluster at FAS](https://github.com/KempnerInstitute/ephys-spike-sorting/tree/main/pipeline/kempner_cluster)
+[Steps to run the spike sorting pipeline on the FASRC Cannon Cluster](https://github.com/KempnerInstitute/ephys-spike-sorting/tree/main/pipeline/kempner_cluster)
   
-[Steps to run the spike sorting pipeline on the O2 Cluster at HMS](https://github.com/KempnerInstitute/ephys-spike-sorting/tree/main/pipeline/hms_cluster)
-
-
-
+[Steps to run the spike sorting pipeline on the HMS O2 Cluster](https://github.com/KempnerInstitute/ephys-spike-sorting/tree/main/pipeline/hms_cluster)
