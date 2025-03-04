@@ -1,0 +1,24 @@
+name: ❓ General Issue
+description: Use this template for any other issue that does not fit the above categories.
+title: "[General]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: "## ❓ General Issue"
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "Describe the Issue"
+      description: "Explain your question, request, or concern."
+      placeholder: "I'm wondering if..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "Pre-Submission Checklist"
+      options:
+        - label: "I have checked that this issue is not already reported."
