@@ -13,6 +13,7 @@ wandb login
 ```
 Logging in using the W&B Command Line Interface adds your api key to your `.netrc` file at `~/.netrc` (Mac and Linux). Alternatively, you can also manually add your api key to this file following this format:
 
+bash
 ```
 machine api.wandb.ai
   login user
