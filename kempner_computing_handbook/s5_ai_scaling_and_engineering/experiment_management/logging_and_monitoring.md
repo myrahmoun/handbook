@@ -11,8 +11,7 @@ To get started, first sign up for an account at https://wandb.ai/site/. Next, ge
 pip install wandb
 wandb login
 ```
-
-Logging in using the W&B Command Line Interface adds your api key to your .netrc file at ~/.netrc (Mac and Linux). Alternatively, you can also manually add your api key to this file following this format:
+Logging in using the W&B Command Line Interface adds your api key to your `.netrc` file at `~/.netrc` (Mac and Linux). Alternatively, you can also manually add your api key to this file following this format:
 
 ```
 machine api.wandb.ai
@@ -40,4 +39,4 @@ for epoch in range(epochs):
     wandb.log({"accuracy": acc, "loss": loss})
 ```
 
-Access your project and view your runs at https://wandb.ai/home. Additionally, invite any collaborators you have to your project at this page. Refer to the [quickstart guide](https://docs.wandb.ai/quickstart/) for more details
+Access your project and view your runs at https://wandb.ai/home. Additionally, invite any collaborators you have to your project at this page. Refer to the [quickstart guide](https://docs.wandb.ai/quickstart/) for more details.
