@@ -14,9 +14,11 @@ wandb login
 
 Logging in using the W&B Command Line Interface adds your api key to your .netrc file at ~/.netrc for Mac and Linux. Alternatively, you can also manually add your api key to this file following this format:
 
+```
 machine api.wandb.ai
   login user
   password YOUR_API_KEY
+```
 
 ### Simple Tracking
 In your python script, import wandb and start a W&B run object. Set the project name and decide which hyperparameters and metrics to track:
