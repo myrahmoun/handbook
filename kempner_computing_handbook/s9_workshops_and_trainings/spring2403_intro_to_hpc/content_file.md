@@ -1,12 +1,10 @@
 (s8_workshops_and_trainings:spring2403_intro_to_hpc)=
-# Kempner Institute Spring 2024 Compute Workshop
+# Compute Workshop
+## Kempner Institute - Spring 2024 
 
 _Date: March 28, 2024_  
-_Time: 1:00 - 4:00 PM_  
-_Location: SEC 2.118_  
 _Presenters: Ella Batty, Naeem Khoshnevis, Max Shad_   
 
-  
 
 > Welcome to the Kempner Institute Spring 2024 Compute Workshop! This workshop is designed to provide an introduction to High-Performance Computing (HPC) and the Kempner Institute AI cluster. The workshop will cover the basics of HPC, including an overview of the Kempner Institute AI cluster architecture and storage tiers. We will also discuss data transfer methods, code synchronization, and software modules. The workshop will include an introduction to job management and monitoring, advanced computing techniques, and support and troubleshooting. 
 
