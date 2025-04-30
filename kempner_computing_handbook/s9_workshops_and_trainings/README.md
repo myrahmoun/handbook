@@ -16,4 +16,4 @@ Welcome to the Workshops and Training section of our handbook. This area is dedi
 
 | Title                                                      | Date           |  
 |:-----------------------------------------------------------|:--------------:|
-| {ref}`s9_workshops_and_trainings:fall2409_intro_to_kempner_ai_cluster`  | September 24, 2024 |
+|  {ref}`s9_workshops_and_trainings:fall2409_intro_to_kempner_ai_cluster` | September 24, 2024 |

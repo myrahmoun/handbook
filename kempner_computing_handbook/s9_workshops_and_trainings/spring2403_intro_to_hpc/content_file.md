@@ -1,6 +1,5 @@
-(s8_workshops_and_trainings:spring2403_intro_to_hpc)=
-# Compute Workshop
-## Kempner Institute - Spring 2024 
+(s9_workshops_and_trainings:spring2403_intro_to_hpc)=
+# Kempner Institute - Compute Workshop
 
 _Date: March 28, 2024_  
 _Presenters: Ella Batty, Naeem Khoshnevis, Max Shad_   
