@@ -63,6 +63,7 @@ parts:
     chapters:
     - file: s5_ai_scaling_and_engineering/scalability/README
       sections:
+      - file: s5_ai_scaling_and_engineering/scalability/distributed_computing
       - file: s5_ai_scaling_and_engineering/scalability/introduction_to_parallel_computing
       - file: s5_ai_scaling_and_engineering/scalability/gpu_computing
       - file: s5_ai_scaling_and_engineering/scalability/gpu_profiling
