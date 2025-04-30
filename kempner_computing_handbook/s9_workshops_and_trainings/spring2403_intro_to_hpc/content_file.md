@@ -11,11 +11,11 @@ _Presenters: Ella Batty, Naeem Khoshnevis, Max Shad_
 ## Infrastructure Orientation
 
 - Welcome and Introduction
-- Cluster Access  (<a href="../../getting_started/introduction_and_cluster_basics.html#getting-access-to-the-cluster" target="_blank">Click Here</a>)
-- Overview of the Kempner Institute Cluster Architecture (<a href="../../getting_started/overview_of_kempner_cluster.html#what-are-the-specifications-of-the-kempner-institute-hpc-cluster" target="_blank">Click Here</a>)
-- Understanding Storage Tiers (<a href="../../storage_and_data_transfer/understanding_storage_options.html" target="_blank">Click Here</a>)
-- Shared Open-Source Data Repositories on Cluster (<a href="../../storage_and_data_transfer/shared_data_repository.html" target="_blank">Click Here</a>)
-- Good Citizenship on the Cluster (<a href="../../getting_started/kempner_policies_for_responsible_use.html" target="_blank">Click Here</a>)
+- Cluster Access  (<a href="/s1_high_performance_computing/kempner_cluster/introduction_and_cluster_basics.html#getting-access-to-the-cluster" target="_blank">Click Here</a>)
+- Overview of the Kempner Institute Cluster Architecture (<a href="/s1_high_performance_computing/kempner_cluster/overview_of_kempner_cluster.html#what-are-the-specifications-of-the-kempner-institute-hpc-cluster" target="_blank">Click Here</a>)
+- Understanding Storage Tiers (<a href="/s1_high_performance_computing/storage_and_data_transfer/understanding_storage_options.html" target="_blank">Click Here</a>)
+- Shared Open-Source Data Repositories on Cluster (<a href="/s1_high_performance_computing/storage_and_data_transfer/shared_data_repository.html" target="_blank">Click Here</a>)
+- Good Citizenship on the Cluster (<a href="/s1_high_performance_computing/kempner_cluster/kempner_policies_for_responsible_use.html" target="_blank">Click Here</a>)
 
 
 ## Development
