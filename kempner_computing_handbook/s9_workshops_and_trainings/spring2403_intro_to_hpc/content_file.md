@@ -114,7 +114,7 @@ See {ref}`development_and_runtime_envs:handling_dependencies_with_spack` for ful
 
 ## Job Management and Monitoring
 
-- Fairshare Policy and Job Priority Basics (Max) (<a href="../../efficient_use_of_resources/fair_use_and_prioritization_policies.html" target="_blank">Click Here</a>)
+- Fairshare Policy and Job Priority Basics (<a href="/s1_high_performance_computing/efficient_use_of_resources/fair_use_and_prioritization_policies.html" target="_blank">Click Here</a>)
 
 ````{dropdown} Example: Check your lab Fairshare score 
 ```bash
@@ -148,7 +148,7 @@ scalc
 ````
 
 
-- SLURM Partitions (<a href="../../resource_management/understanding_slurm.html#slurm-partitions" target="_blank">Click Here</a>)
+- SLURM Partitions (<a href="/s1_high_performance_computing/general_hpc_concepts/understanding_slurm.html#slurm-partitions" target="_blank">Click Here</a>)
     - FASRC SLURM Partitions (<a href="https://docs.rc.fas.harvard.edu/kb/running-jobs/" target="_blank">Click Here</a>)
 ````{dropdown} Example: Check SLURM partition settings
 ```bash
@@ -290,9 +290,9 @@ sbatch run_array_job.sh
 ## Advanced Computing Techniques
 
 - Best practices for HPC efficiency
-- Introduction to parallel computing (<a href="../../scalability/introduction_to_parallel_computing.html" target="_blank">Click Here</a>)
-- Containerization with Singularity (<a href="../../development_and_runtime_envs/containerization.md#containerization" target="_blank">Click Here</a>)
-- Distributed Computing and Training ([Click Here](https://github.com/KempnerInstitute/intro-compute-march-2024))
+- Introduction to parallel computing (<a href="/s5_ai_scaling_and_engineering/scalability/introduction_to_parallel_computing.html" target="_blank">Click Here</a>)
+- Containerization with Singularity (<a href="/s1_high_performance_computing/development_and_runtime_envs/containerization.html#containerization" target="_blank">Click Here</a>)
+- Distributed Computing (<a href="/s5_ai_scaling_and_engineering/scalability/distributed_computing.html" target="_blank">Click Here</a>)
 
 ## Support and Troubleshooting
 
