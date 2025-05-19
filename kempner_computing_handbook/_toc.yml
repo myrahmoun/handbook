@@ -92,13 +92,12 @@ parts:
     - file: s8_support/README
       sections:
       - file: s8_support/faq
-  - caption: Workshops and Trainings
-    numbered: false
+  - caption: Workshops
+    numbered: true
     chapters:
-    - file: s9_workshops_and_trainings/README
-      sections:
-      - file: s9_workshops_and_trainings/spring2403_intro_to_hpc/content_file
-        title: Spring 24 - Intro to Compute
-      - file: s9_workshops_and_trainings/fall2409_intro_to_kempner_ai_cluster/intro_to_kempner_ai_cluster
-        title: Fall 24 - Intro to Kempner AI Cluster
-
+      - file: s9_workshops_and_trainings/README
+        title: Workshops Overview
+      # - file: s9_workshops_and_trainings/intro_to_hpc/content_file
+      #   title: Spring 24 - Intro to Compute
+      - file: s9_workshops_and_trainings/intro_to_kempner_ai_cluster/intro_to_kempner_ai_cluster
+        title: Introduction to Kempner AI cluster
