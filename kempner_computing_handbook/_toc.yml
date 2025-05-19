@@ -95,9 +95,9 @@ parts:
   - caption: Workshops
     numbered: true
     chapters:
-      - file: s9_workshops_and_trainings/README
-        title: Workshops Overview
-      # - file: s9_workshops_and_trainings/intro_to_hpc/content_file
-      #   title: Spring 24 - Intro to Compute
+    - file: s9_workshops_and_trainings/README
+      sections:
+      # - file: s9_workshops_and_trainings/intro_to_hpc/intro_to_hpc
       - file: s9_workshops_and_trainings/intro_to_kempner_ai_cluster/intro_to_kempner_ai_cluster
-        title: Introduction to Kempner AI cluster
+
+ 
