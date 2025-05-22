@@ -28,6 +28,7 @@ html:
   extra_js:
     - _static/custom.js
   google_analytics_id: G-QFZEXWFW26
+  static_path: ["_static"]
 
 exclude_patterns:
   - scalability/distributed_computing.md
