@@ -33,3 +33,4 @@ html:
 exclude_patterns:
   - scalability/distributed_computing.md
   - s9_workshops_and_trainings/workshops/*›
+  - s9_workshops_and_trainings/intro_to_hpc/*
