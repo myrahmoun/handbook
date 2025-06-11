@@ -1,5 +1,5 @@
 # Hugging Face Models
-In this section, we list best practices for working with Hugging Face models, from downloading them on the AI cluster to converting their formats.
+In this section, we list best practices for working with Hugging Face models, from downloading them on the AI Cluster to converting their formats.
 
 ## Downloading Hugging Face Models on AI Cluster
 To directly download the Hugging Face models on the AI cluster, you can use the following SLURM submission script using the `huggingface-cli` command.
