@@ -3,7 +3,7 @@
 We welcome contributions to the Kempner Institute HPC User Guide! Whether you are a researcher, student, or HPC enthusiast, your contributions are valuable to the community. This guide is designed to be a comprehensive resource for leveraging High-Performance Computing (HPC) for advanced computational research, and we encourage you to help us improve it.
 
 
-[!IMPORTANT]  
+> [!IMPORTANT]  
 > **Note on Responsible Contribution in the Era of Generative AI**
 > In today’s landscape of generative AI, fair collaboration and proper  attribution have become more important than ever.
 > If you are contributing material to this handbook:
