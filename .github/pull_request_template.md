@@ -6,6 +6,7 @@
 
 Before submitting this PR, please confirm that you have completed the following:
 
+- [ ] I have read and followed the [contributing guidelines](../CONTRIBUTING.md).
 - [ ] I have checked the submission for spelling and grammatical errors.
 - [ ] I have built the JupyterBook locally, and the build was successful.
 - [ ] I have linked the related issue in this PR (if applicable).
