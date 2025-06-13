@@ -2,6 +2,19 @@
 
 We welcome contributions to the Kempner Institute HPC User Guide! Whether you are a researcher, student, or HPC enthusiast, your contributions are valuable to the community. This guide is designed to be a comprehensive resource for leveraging High-Performance Computing (HPC) for advanced computational research, and we encourage you to help us improve it.
 
+
+> [!IMPORTANT]  
+> **Note on Responsible Contribution in the Era of Generative AI**  
+> In today’s landscape of generative AI, fair collaboration and proper  attribution have become more important than ever.
+> If you are contributing material to this handbook:
+> - Always credit original sources clearly and fully if your content is based on or adapted from external material.
+> - If you use generative AI tools to assist in your writing or coding, you must meticulously review and verify the content to ensure it is technically accurate and appropriate for our context.
+> - Please be aware that every character of your contribution is traceable via Git version control. As such, you are fully responsible for the correctness and originality of your contributions.
+> - In cases of controversial or questionable contributions, please note that the core maintainers reserve full discretion to accept, modify, or reject any pull request.
+> 
+> By contributing, you acknowledge that you are submitting content to the best of your knowledge and in accordance with principles of transparency, accountability, and collaborative integrity.  Our priority is to maintain the handbook’s quality, integrity, and usefulness for the broader community.
+
+
 To contribute to the handbook, please follow these steps:
 
 
