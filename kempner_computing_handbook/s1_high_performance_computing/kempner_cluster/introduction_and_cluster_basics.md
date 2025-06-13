@@ -24,9 +24,9 @@ For account approver please follow these instructions:
     - Select your PI as approver
   - If you are working with a mentor who is an affiliate faculty member and you have been approved for Kempner cluster access (via email notification):
     - Select your PI as approver if they have an FASRC lab account (i.e. if they show up as option for approver) 
-    - Otherwise, request `Max Shad` as PI 
+    - Otherwise, request `Bala Desinghu` as PI 
     - Select `Bala Desinghu` as approver
-- If you are a **research fellow**: Select `Max Shad` as approver	
+- If you are a **research fellow**: Select `Elise Porter` as approver	
 - If you are a **PI**: Email `Elise Porter` or `Max Shad` to get access to the cluster after you have submitted the request. 
 - If **none** of the above: if you believe you are qualified to access the Kempner cluster, email `Max Shad`.
 
