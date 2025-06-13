@@ -4,7 +4,7 @@ We welcome contributions to the Kempner Institute HPC User Guide! Whether you ar
 
 
 > [!IMPORTANT]  
-> **Note on Responsible Contribution in the Era of Generative AI**
+> **Note on Responsible Contribution in the Era of Generative AI**  
 > In today’s landscape of generative AI, fair collaboration and proper  attribution have become more important than ever.
 > If you are contributing material to this handbook:
 > - Always credit original sources clearly and fully if your content is based on or adapted from external material.
