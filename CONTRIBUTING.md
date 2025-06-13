@@ -15,7 +15,6 @@ We welcome contributions to the Kempner Institute HPC User Guide! Whether you ar
 > By contributing, you acknowledge that you are submitting content to the best of your knowledge and in accordance with principles of transparency, accountability, and collaborative integrity.  Our priority is to maintain the handbook’s quality, integrity, and usefulness for the broader community.
 
 
-
 To contribute to the handbook, please follow these steps:
 
 
