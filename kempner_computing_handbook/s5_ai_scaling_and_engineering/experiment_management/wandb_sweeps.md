@@ -16,7 +16,7 @@ Why Sweep Hyperparameters?
 ```
 
 ## ResNet-50 Classification Example
-In order to cover the W&B sweep feature, we will go over an example from this [GitHub repository](https://github.com/KempnerInstitute/optimizing-ml-workflow/tree/main/workshop_exercises/wandb_sweep), which was presented during *"Optimizing ML Workflows on an AI Cluster"* workshop. This example demonstrates a simple classification task on the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset using the [ResNet-50](https://arxiv.org/abs/1512.03385) model. 
+In order to cover the W&B sweep feature, we will go over an example from this [GitHub repository](https://github.com/KempnerInstitute/optimizing-ml-workflow/tree/main/workshop_exercises/wandb_sweep), which is part of *"Optimizing ML Workflows on an AI Cluster"* workshop. This example demonstrates a simple classification task on the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset using the [ResNet-50](https://arxiv.org/abs/1512.03385) model. 
 
 Below is a directory-style tree view of the files used in this example, along with brief explanations for each file:
 
@@ -99,7 +99,7 @@ From within your (e.g., `mamba`) environment, run the following command:
 wandb sweep --project project_name sweep_config.yaml
 ```
 
-Replace `project_name` with the name of your W&B project. After running this command, W&B will:
+Replace `project_name` with the name of your W&B project. After running this command, W&B will perform the following tasks.
 
 - Register the sweep with your account
 - Return a sweep ID, which uniquely identifies the sweep
@@ -132,7 +132,7 @@ Each agent runs one experiment from the sweep. To parallelize experiments on an 
 #SBATCH --array=1-12%2
 ```
 
-This directive launches up to 12 jobs, with a maximum of 2 running concurrently.
+This directive launches up to 12 jobs, with a maximum of 2 running concurrently ({ref}`read more here <resource_management:array_jobs>`).
 
 Inside the SLURM batch script, run the agent command:
 
@@ -176,7 +176,7 @@ name: Parameter Importance Plot
 You can learn more about these visualizations in the [W&B documentation](https://docs.wandb.ai/guides/sweeps/visualize-sweep-results/).
 ```
 
-## Mapping Sweep Runs to SLURM Array Jobs
+## Note on Mapping Sweep Runs to SLURM Array Jobs
 
 The way you configure your SLURM jobs determines how sweep runs are distributed. The diagram below illustrates two different execution patterns when running `wandb agent`.
 
