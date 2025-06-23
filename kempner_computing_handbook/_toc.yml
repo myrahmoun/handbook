@@ -105,5 +105,6 @@ parts:
       # - file: s9_workshops_and_trainings/intro_to_hpc/intro_to_hpc
       - file: s9_workshops_and_trainings/intro_to_kempner_ai_cluster/intro_to_kempner_ai_cluster
       - file: s9_workshops_and_trainings/intro_to_distributed_computing/intro_to_distributed_computing
+      - file: s9_workshops_and_trainings/llm_distributed_training/llm_distributed_training
 
  
