@@ -4,12 +4,12 @@
 
 ## Workshop Summary
 
-This workshop describes how to implement spike sorting algorithms for neural data on an HPC cluster.  A comprehensive pipeline guides participants to efficiently spike sort data using GPUs and visualize their outputs on a web app.  The workshop provides interactive examples using Neuropixels data and Kilosort 4.0, though participants can use custom data loaders and Spyking Circus instead.
+This workshop describes how to implement spike sorting algorithms for neural data on an HPC cluster.  A comprehensive pipeline guides participants to efficiently spike sort data using GPUs and visualize their outputs on a web app.  The workshop provides interactive examples using Neuropixels data and Kilosort4, though participants can use custom data loaders and SpykingCircus2 instead.
 
 ### Prerequisites
-- Familiarity with HPC, including slurm batch job submission
+- Familiarity with HPC, including SLURM batch job submission
 - Familiarity with the concept of spike sorting
-- Access to O2 or the FASRC cluster (Kempner-specific access is not necessary)
+- Access to O2 or the FASRC cluster (Kempner AI cluster access is not necessary)
 
 ## Workshop Slides 
 
