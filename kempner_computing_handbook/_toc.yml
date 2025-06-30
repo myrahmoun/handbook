@@ -107,5 +107,5 @@ parts:
       - file: s9_workshops_and_trainings/intro_to_distributed_computing/intro_to_distributed_computing
       - file: s9_workshops_and_trainings/llm_distributed_training/llm_distributed_training
       - file: s9_workshops_and_trainings/transformer_from_scratch/transformer_from_scratch
-
+      - file: s9_workshops_and_trainings/llm_distributed_inference/llm_distributed_inference
  
