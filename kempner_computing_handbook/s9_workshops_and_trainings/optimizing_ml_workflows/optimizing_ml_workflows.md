@@ -4,11 +4,12 @@
 
 ## Workshop Summary
 
-This workshop demonstrates how to optimize machine learning workflows for efficient, reproducible training on an AI cluster. Using TorchVision models, such as AlexNet and ResNet, trained on CIFAR-10 and ImageNet-1k as examples, the workshop walks through the challenges and solutions at each stage of a machine learning pipeline - from environment setup and data management to experiment tracking, model training, evaluation, and deployment.  A special focus is placed on using Weights & Biases (W&B) for managing experiments and hyperparameter sweeps, as well as implementing checkpointing during training.
+This workshop demonstrates how to optimize machine learning workflows for efficient, reproducible training on an AI cluster. Using [Torchvision models](https://docs.pytorch.org/vision/main/models.html), such as AlexNet and ResNet, trained on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) and [ImageNet-1k](https://www.image-net.org/index.php) as examples, the workshop walks through the challenges and solutions at each stage of a machine learning pipeline - from environment setup and data management to experiment tracking, model training, evaluation, and deployment. A special focus is placed on using [Weights & Biases (W&B)](https://wandb.ai/home) for managing experiments and hyperparameter sweeps, as well as implementing checkpointing during training.
 
 ### Prerequisites
+
 - Familiarity with PyTorch
-- Familiarity with HPC, including slurm batch job submission
+- Familiarity with HPC, including SLURM batch job submission
 - Access to the FASRC cluster (Kempner AI cluster access is not necessary)
 
 ## Workshop Slides 
