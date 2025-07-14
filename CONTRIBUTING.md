@@ -117,7 +117,7 @@ Notes:
 - If you are working on a large contribution, please open an issue to discuss the changes with the maintainers before submitting a pull request.
 - If your work is still in progress, you can submit a draft pull request to get feedback from the maintainers and other contributors. To do this add "[WIP]: " to the title of the pull request. This will indicate that the pull request is a work in progress and not ready to be merged. You can remove the "[WIP]: " prefix when your work is complete and ready for review.
 - After submitting the pull request, the maintainers will review your changes and provide feedback. You may need to make additional changes based on the feedback before your pull request is accepted.
-- Depending on the nature and complexity of your contribution, it may take some time for the maintainers to review and merge your pull request. Please be patient and responsive to the feedback provided by the maintainers. During this time, it is your responsiblity to address any conflicts that might happen due to changes in the main repository. So, please make sure to keep your forked repository up to date with the main repository.
+- Depending on the nature and complexity of your contribution, it may take some time for the maintainers to review and merge your pull request. Please be patient and responsive to the feedback provided by the maintainers. During this time, it is your responsibility to address any conflicts that might happen due to changes in the main repository. So, please make sure to keep your forked repository up to date with the main repository.
 
 Done!
 
@@ -154,14 +154,14 @@ If you are creating new figures, please make sure to follow the style and format
 **Figure Caption**:
 
 - **Placement**: DO NOT include figure caption in the figure itself.
-- **Content**: Figure caption should be consize, informative, and self-sufficient. Readers should be able to understand the figure without referring to the text.
+- **Content**: Figure caption should be concise, informative, and self-sufficient. Readers should be able to understand the figure without referring to the text.
 
 **Background Color**: 
 
 - Use transparent background for figures to ensure that they blend seamlessly with the handbook's design. 
 
 
-## Conributing a Workshop Session
+## Contributing a Workshop Session
 
 If you are contributing a workshop session to the handbook, please make sure to follow these guidelines:
 
