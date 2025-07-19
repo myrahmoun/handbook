@@ -74,7 +74,7 @@ See {ref}`development_and_runtime_envs:handling_dependencies_with_spack` for ful
 
    **Using Git**:
 
-   Step 1: Create a folder for the workshop excercise and navigate to it.
+   Step 1: Create a folder for the workshop exercise and navigate to it.
 
    Step 2: Clone the repository: Clone the repository.
 
@@ -92,7 +92,7 @@ See {ref}`development_and_runtime_envs:handling_dependencies_with_spack` for ful
 
 `````{dropdown} Data Transfer
 
-**Scp/rsync**: See {ref}`storage_and_data_trnasfer:data_transfer` for full details. 
+**Scp/rsync**: See {ref}`storage_and_data_transfer:data_transfer` for full details. 
 
 ````{admonition} Try it yourself
 
@@ -262,7 +262,7 @@ See {ref}`resource_management:array_jobs`.
 1. Navigate to the `SLURM_example_2` directory.
 
 
-2. Take a look at the job submission script `run_array_job.sh`, the python script `hyperparameter_tuning.py`, and the csv file `hyperparemters.csv`. Can you figure out what would happen if you run this job?
+2. Take a look at the job submission script `run_array_job.sh`, the python script `hyperparameter_tuning.py`, and the csv file `hyperparameters.csv`. Can you figure out what would happen if you run this job?
 
 
 3. Submit the array job
