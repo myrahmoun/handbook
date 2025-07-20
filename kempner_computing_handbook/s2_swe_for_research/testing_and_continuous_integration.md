@@ -1,6 +1,6 @@
 # Testing and Continuous Integration
 
-Reliable testing and Continuous Integration (CI) are foundational for ensuring software correctness, especially in collaborative and evolving research environments. This section outlines different types of tests, tools for writing and maintaining them, and how to integrate testing into automated workflows. Each topic below will be expanded with detailed guidance and curated links to external resources in future revisions.
+Reliable testing and Continuous Integration (CI) are foundational for ensuring software correctness, especially in collaborative and evolving research environments. This section outlines different types of tests, tools for writing and maintaining them, and how to integrate testing into automated workflows.
 
 Why Testing and Continuous Integration Matters  
 - Prevents regressions and errors as projects grow.  
