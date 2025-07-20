@@ -26,7 +26,7 @@ Sound software design is essential for building research tools that are maintain
 
 ## Layered Architecture in Scientific Computing Software
 
-### Summary Checklist
+## Summary Checklist
 
 - [ ] Follow core principles (KISS, DRY, SRP)  
 - [ ] Use modular, loosely coupled design  
