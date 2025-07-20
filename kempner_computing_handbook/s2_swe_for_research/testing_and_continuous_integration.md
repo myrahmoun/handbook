@@ -21,8 +21,8 @@ Why Testing and Continuous Integration Matters
 
 ## Summary Checklist
 
-- [x] All core functionality has unit tests  
-- [x] CI runs on pull requests  
-- [x] Linting and formatting checks automated  
-- [x] Code coverage tracked  
-- [x] Tests are reproducible and deterministic  
+- [ ] All core functionality has unit tests  
+- [ ] CI runs on pull requests  
+- [ ] Linting and formatting checks automated  
+- [ ] Code coverage tracked  
+- [ ] Tests are reproducible and deterministic  
