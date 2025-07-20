@@ -28,9 +28,9 @@ Sound software design is essential for building research tools that are maintain
 
 ### Summary Checklist
 
-- [x] Follow core principles (KISS, DRY, SRP)  
-- [x] Use modular, loosely coupled design  
-- [x] Design for testability and reuse  
-- [x] Document key design decisions  
-- [x] Enable reproducibility (configs, versioning)  
-- [x] Refactor and iterate regularly  
+- [ ] Follow core principles (KISS, DRY, SRP)  
+- [ ] Use modular, loosely coupled design  
+- [ ] Design for testability and reuse  
+- [ ] Document key design decisions  
+- [ ] Enable reproducibility (configs, versioning)  
+- [ ] Refactor and iterate regularly  
