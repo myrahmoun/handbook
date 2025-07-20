@@ -1,6 +1,6 @@
 # Documentation and Readability
 
-This section focuses on best practices and tools that improve documentation and code clarity in research software. Each topic below will be expanded with detailed guidance and curated links to external resources in future revisions.
+This section focuses on best practices and tools that improve documentation and code clarity in research software.
 
 Why Does Documentation Matter?
 - Clear documentation ensures reproducibility, collaboration, and long-term usability.  
