@@ -26,7 +26,7 @@ Collaborative code development promotes reproducible, maintainable, and scalable
 
 ## Integrations
 
-### Summary Checklist
+## Summary Checklist
 
 - [ ] Overview of version control and workflows  
 - [ ] Branching models & conflict mitigation  
