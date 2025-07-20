@@ -1,6 +1,6 @@
 # Software Design Principles
 
-Sound software design is essential for building research tools that are maintainable, testable, and reproducible. This section outlines key principles and strategies that guide the structure and evolution of well-architected research codebases.
+Sound software design is essential for building research tools that are maintainable, testable, extensible, and reproducible. This section outlines key principles and strategies that guide the structure and evolution of well-architected research codebases.
 
 ## Fundamental Design Principles
 
