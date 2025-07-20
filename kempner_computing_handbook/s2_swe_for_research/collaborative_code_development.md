@@ -28,9 +28,9 @@ Collaborative code development promotes reproducible, maintainable, and scalable
 
 ### Summary Checklist
 
-- [x] Overview of version control and workflows  
-- [x] Branching models & conflict mitigation  
-- [x] Review workflows + CI integration  
-- [x] Real‑time collaborative tooling  
-- [x] Environment, dependency, and style standardization  
-- [x] Security/compliance + automation integrations  
+- [ ] Overview of version control and workflows  
+- [ ] Branching models & conflict mitigation  
+- [ ] Review workflows + CI integration  
+- [ ] Real‑time collaborative tooling  
+- [ ] Environment, dependency, and style standardization  
+- [ ] Security/compliance + automation integrations  
