@@ -16,7 +16,7 @@ Why Does Documentation Matter?
 
 ## Mental Models for Readers
 
-### Summary Checklist
+## Summary Checklist
 
 - [ ] Docstrings on all public functions/classes  
 - [ ] README explains purpose, usage, and setup  
