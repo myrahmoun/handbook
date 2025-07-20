@@ -18,8 +18,8 @@ Why Does Documentation Matter?
 
 ### Summary Checklist
 
-- [x] Docstrings on all public functions/classes  
-- [x] README explains purpose, usage, and setup  
-- [x] Style guide followed consistently  
-- [x] Notebook outputs cleared before commit  
-- [x] All dependencies documented  
+- [ ] Docstrings on all public functions/classes  
+- [ ] README explains purpose, usage, and setup  
+- [ ] Style guide followed consistently  
+- [ ] Notebook outputs cleared before commit  
+- [ ] All dependencies documented  
