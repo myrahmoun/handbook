@@ -25,7 +25,7 @@ Why Package Your Code?
 
 ## Summary Checklist
 
-- [ ] Package is installable via `pip`  
+- [ ] Package is installable via `pip` in case of a Python package.
 - [ ] Code is modular and documented  
 - [ ] Tests are included and pass in CI  
 - [ ] `README.md` explains usage and purpose  
