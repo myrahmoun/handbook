@@ -169,15 +169,15 @@ All code contributions require pull requests, even single-character changes. Pul
 *Examples*
 ```bash
 # Good
-Add statistical significance testing for experimental groups
+Fix data loading error with empty CSV files
 
-Implements t-tests and ANOVA with validation against R's t.test().
-Includes manual testing on sample datasets from experiments 1-3.
+Program was crashing when CSV files had no data rows.
+Now handles empty files and shows helpful error message.
 
-Closes #45
+Closes #23
 
-# Bad
-Edit config file
+# Bad  
+Fix bug
 ```
 
 *Required Elements*
