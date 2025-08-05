@@ -33,6 +33,7 @@ git push origin main
 ```
 
 **Branching**
+
 Git branches let you work on different features or experiments in parallel without affecting the main code. Think of them as separate workspaces where you can make changes safely before merging them back.
 
 ```bash
@@ -96,8 +97,6 @@ Incoming branch content
 *Repository Visibility*
 - **Private**: Default for unpublished research work
 - **Public**: Only after work has been disseminated or published
-- Copyright holder: "Kempner Institute at Harvard University"
-- Contact email: kempner-research-engineering@g.harvard.edu
 
 *External Repository Management*
 - **Cloning**: You can clone a repository locally and start making changes on it
@@ -117,16 +116,7 @@ Incoming branch content
 
 **Issues and Project Management**
 
-*Creating Issues*
-- Use specific, descriptive titles
-- Apply appropriate labels ("bug", "enhancement")
-- For bugs: include reproduction steps and screenshots
-- Assign issues to yourself when working on them
-
-*Issue Integration*
-- Reference issue numbers in commit messages: "Add Llama regression models, closing #23"
-- Create issues for new features before starting work
-- Comment on issues to communicate progress
+Issues are GitHub's way to track bugs, request features, and organize work on your project. Create issues for new features before starting work to document what you're building and track progress. Use specific, descriptive titles and apply appropriate labels like "bug" or "enhancement" to help organize your work. For bugs, include reproduction steps and screenshots to help others understand the problem. Assign issues to yourself when working on them, and reference issue numbers in commit messages like "Add Llama regression models, closing #23" to automatically link your work to the relevant issue. Comment on issues regularly to communicate progress and keep collaborators informed.
 
 **Pull Requests**
 
@@ -211,14 +201,6 @@ Co-authored-by: Alice <alice@example.com>
 - Approve when ready, even if minor suggestions remain
 - Use "Request Changes" sparingly, for significant issues only
 
-*Review Checklist*
-- [ ] Code follows Kempner style guidelines
-- [ ] Logic is correct and handles edge cases
-- [ ] Tests are comprehensive and meaningful
-- [ ] Documentation updated
-- [ ] No sensitive data or credentials exposed
-- [ ] Issue references are descriptive, not just numbers
-
 **Repository Organization**
 
 *Essential Files*
@@ -228,6 +210,14 @@ Co-authored-by: Alice <alice@example.com>
 - `CONTRIBUTING.md`: Guidelines for contributors
 - `LICENSE`: MIT license recommended for uncertainty
 
+
+*Review Checklist*
+- [ ] Code follows style guidelines
+- [ ] Logic is correct and handles edge cases
+- [ ] Tests are comprehensive and meaningful
+- [ ] Documentation updated
+- [ ] No sensitive data or credentials exposed
+- [ ] Issue references are descriptive, not just numbers
 ## Branching & Collaboration Models
 
 ## Code Review & Continuous Integration (CI)
