@@ -57,7 +57,7 @@ git branch -d feature/new-analysis
 
 *Merge*: Combines branches while preserving history
 ```bash
-git checkout main          # Switch to target branch
+git checkout main                 # Switch to target branch
 git merge feature/new-analysis    # Merge feature branch into main
 ```
 - Pros: Preserves complete history, shows when features were integrated
@@ -73,7 +73,7 @@ git rebase main                      # Replay feature commits on top of main
 
 *When to Use Each*
 - Use merge for: shared branches, preserving collaboration context
-- Use rebase for: cleaning up local feature branches before merging
+- Use rebase for: cleaning up local feature branches before merging  
 
 **Resolving Conflicts**
 Git marks conflicts in files with special markers:
@@ -118,11 +118,11 @@ Incoming branch content
 
 **Issues and Project Management**
 
-Issues are GitHub's way to track bugs, request features, and organize work on your project. Create issues for new features before starting work to document what you're building and track progress. Use specific, descriptive titles and apply appropriate labels like "bug" or "enhancement" to help organize your work. For bugs, include reproduction steps and screenshots to help others understand the problem. Assign issues to yourself when working on them, and reference issue numbers in commit messages like "Add Llama regression models, closing #23" to automatically link your work to the relevant issue. Comment on issues regularly to communicate progress and keep collaborators informed.
+Issues are GitHub's way to track bugs, request features, and organize work on your project. Create issues for new features before starting work to document what you're building and track progress. Use specific, descriptive titles and apply appropriate labels like `bug` or `enhancement` to help organize your work. For bugs, include reproduction steps and screenshots to help others understand the problem. Assign issues to yourself when working on them. Comment on issues regularly to communicate progress and keep collaborators informed.
 
 **Pull Requests**
 
-All code contributions require pull requests, even single-character changes. Pull requests let you propose changes to a repository and have others review your code before it gets merged into the main branch.
+All code contributions require pull requests, even single-character changes. Pull requests let you propose changes to a repository and have others review your code before it gets merged into the main branch. Reference issue numbers in PRs like "Closes #23" to automatically link your work to the relevant issue.
 
 1. **Preparation**
    ```bash
