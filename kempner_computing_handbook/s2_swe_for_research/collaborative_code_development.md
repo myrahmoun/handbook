@@ -76,6 +76,7 @@ git rebase main                      # Replay feature commits on top of main
 - Use rebase for: cleaning up local feature branches before merging  
 
 **Resolving Conflicts**
+
 Git marks conflicts in files with special markers:
 ```
 <<<<<<< HEAD
