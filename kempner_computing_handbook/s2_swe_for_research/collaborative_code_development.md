@@ -222,7 +222,40 @@ Co-authored-by: Alice <alice@example.com>
 - [ ] No sensitive data or credentials exposed
 - [ ] Issue references are descriptive, not just numbers
 ## Branching & Collaboration Models
+There are two main common modes of branching to think about: Trunk-based development, and Git Flow
+#### Trunk-based development
+This works best for small teams (2-5 developers), and in rapid experimentation phases. There's one main branch, and all developers work on short-lived feature branches (2-7 days). The caveat here is that feedback and code reviews must happen quickly, so that the main branch stays up to date with all the different features. 
 
+**Feature Branch Workflow:**
+
+```
+           feature1     feature2
+feature    •─────•      •─────•
+          ╱       ╲    ╱       ╲
+         ╱         ╲  ╱         ╲
+        ╱           ╲╱           ╲
+trunk  •──────•──────•─────•──────•─────•
+                     ▲            ▲
+                sync point      final merge
+               (rebase/merge)   (when ready)
+```
+
+#### Git Flow
+Git Flow provides a structured approach with dedicated branches for different purposes, suitable for larger teams with formal release cycles.
+
+**Branch Types**
+
+- `main`: Production-ready code
+- `develop`: Integration branch for features
+- `feature/*`: Individual features or experiments
+- `release/*`: Preparing releases
+- `hotfix/*`: Critical bug fixes
+
+When working with a Git Flow, remember to **merge features to the develop branch**, not the main branch. Only merge to main when you have a ready-to-use product. 
+
+*When to Use*
+
+Larger research teams (5+ developers), projects with scheduled releases, code that needs extensive testing, open-source research software (**Many Kempner Research Projects fall under this category!**).
 ## Code Review & Continuous Integration (CI)
 
 ## Merge Conflicts & Resolution Strategies
